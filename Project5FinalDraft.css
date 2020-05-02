@@ -1,0 +1,212 @@
+body{
+    background-color: black;    
+}
+
+
+
+nav ul {
+text-align:center; /* to center the nav menu */
+background:none;
+width: static;
+margin:0 auto; 
+border:none;
+padding: 5px;
+}
+
+nav li {
+display:inline;
+padding:5px;
+padding-top: 20px;
+padding-bottom: 50px;
+}
+
+nav li a:link, nav li a:visited {
+font-family: sans-serif,serif,monospace;
+font-size:25px;
+color:white;
+text-decoration:none;
+padding-left: 50px;
+padding-right:50px;
+padding-top:20px;
+}
+
+
+nav li a:hover {
+border-bottom:3px solid white;
+width: auto;
+}
+
+nav li a.active {
+ border-bottom:3px solid white; 
+}
+
+.landingimage{
+    width:100%;
+    height:790px;
+}
+
+h3 {color:white;
+    font-family: sans-serif,serif,monospace;
+    text-align:center
+}
+
+
+img {
+    position: relative;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 50%;
+  padding-top: 230px;
+  padding-bottom: 30px;
+    
+}
+
+
+ul {
+    position:relative;
+    text-align: center;
+    margin: auto;
+}
+
+.photos{
+    font-family: sans-serif,serif,monospace;;
+    font-size: 100%; 
+    text-align: center; 
+    color:white;
+    margin-left: 10%;
+    Margin-right: 10%;
+}
+
+.top{
+     display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 50%;
+    padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 30px;
+padding-top:1%;
+width:490px;
+background:rgba(112,112,112,.75); 
+float:right;
+text-align: left;
+font-family:sans-serif,serif,monospace;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-family: sans-serif,serif,monospace;
+}
+
+
+    #myBtn {
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 10%;
+        left: 90%;
+        max-width: 100px;
+        width: 100%;
+        font-size: 12px;
+        border-color: rgba(85, 85, 85, 0.2);
+        background-color: rgb(100,100,100);
+        padding: .5px;
+        border-radius: 4px;
+
+    }
+
+    #myBtn:hover {
+        background-color: lightgrey;
+    }
+
+.profile{
+    float: right;
+    padding-top: 15%;
+    padding-right: 3%;
+   width: 40%;    
+}
+
+.profiletext {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 40px;
+    width: 35%;
+    color:white;
+    font-family: sans-serif, serif, monospace;
+    position: relative;
+}
+
+
+.main { 
+padding-top: 75px;        
+padding-bottom: 10px;
+font-family:sans-serif,serif,monospace;;
+text-align: left;
+width: relative;
+margin:0;
+border: none;
+color: white;
+list-style-type: none    
+}
+
+.ResumeBody { 
+font-family:sans-serif,serif,monospace;;
+text-align: left;
+width: 960px;
+margin:0 auto;
+border: none;
+color:white;
+list-style-type: none
+}
+
+.resumetitle{
+    text-align: center;
+}
+
+h2{
+text-align: left;
+}
+
+h3{
+    text-align: left;
+}
+
+.resume{
+ text-align: left;    
+}
+
+.aboutme{
+    text-align: center;
+}
+
+.gallerytitle{
+    text-align: center;
+}
+
+.welcome{
+    padding-left: 5%;
+}
+
+.welcomestatement{
+    padding-left: 6%;
+}
